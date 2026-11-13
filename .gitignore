@@ -1,0 +1,10 @@
+# Personal data never belongs in this repo — it lives in
+# ~/.claude-plugins/netek/. These patterns are a backstop, not the mechanism.
+profiles/
+*.profile.json
+profile.json
+requests/
+*.guid
+__pycache__/
+*.pyc
+.venv/

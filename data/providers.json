@@ -1,0 +1,636 @@
+{
+  "source": "https://service.netek.co.il/api/v2/p/providers",
+  "retrieved": "2026-07-30",
+  "count": 55,
+  "providers": [
+    {
+      "id": 1,
+      "slug": "bezeq",
+      "name_he": "בזק",
+      "name_ar": "بيزك",
+      "name_ru": "Безек",
+      "services_he": [
+        "טלפון נייח",
+        "אינטרנט"
+      ],
+      "page_slug_he": "להתנתק_מבזק"
+    },
+    {
+      "id": 2,
+      "slug": "bezeqint",
+      "name_he": "בזק בינלאומי",
+      "name_ar": "بيزك بينلئومي",
+      "name_ru": "Безек Бейнлеуми",
+      "services_he": [
+        "טלפון נייח",
+        "אינטרנט",
+        "שיחות לחו\"ל"
+      ],
+      "page_slug_he": "להתנתק_מבזק_בינלאומי"
+    },
+    {
+      "id": 3,
+      "slug": "013",
+      "name_he": "נטויז'ן ברק 013",
+      "name_ar": "نيفيجين| براك 013",
+      "name_ru": "Нетвижн Барак 013",
+      "services_he": [
+        "טלפון נייח",
+        "אינטרנט",
+        "שיחות לחו\"ל"
+      ],
+      "page_slug_he": "להתנתק_מנטויזן_ברק_013"
+    },
+    {
+      "id": 4,
+      "slug": "018",
+      "name_he": "אקספון 018",
+      "name_ar": "ماكسفون 018",
+      "name_ru": "Максфон 018",
+      "services_he": [
+        "טלפון נייח",
+        "אינטרנט",
+        "שיחות לחו\"ל"
+      ],
+      "page_slug_he": "להתנתק_מאקספון_018"
+    },
+    {
+      "id": 5,
+      "slug": "012",
+      "name_he": "סמייל 012",
+      "name_ar": "سمايل 012",
+      "name_ru": "Смайл 012",
+      "services_he": [
+        "טלפון נייח",
+        "אינטרנט",
+        "שיחות לחו\"ל"
+      ],
+      "page_slug_he": "להתנתק_מסמייל_012"
+    },
+    {
+      "id": 6,
+      "slug": "yes",
+      "name_he": "יס",
+      "name_ar": "ييس",
+      "name_ru": "Йес",
+      "services_he": [
+        "טלויזיה",
+        "אינטרנט"
+      ],
+      "page_slug_he": "להתנתק_מיס"
+    },
+    {
+      "id": 7,
+      "slug": "cellcom",
+      "name_he": "סלקום",
+      "name_ar": "سيلكوم",
+      "name_ru": "Селком",
+      "services_he": [
+        "טלפון נייד",
+        "טלפון נייח",
+        "אינטרנט",
+        "טלויזיה"
+      ],
+      "page_slug_he": "להתנתק_מסלקום"
+    },
+    {
+      "id": 8,
+      "slug": "pelephone",
+      "name_he": "פלאפון",
+      "name_ar": "بيليفون",
+      "name_ru": "Пелефон",
+      "services_he": [
+        "טלפון נייד",
+        "אינטרנט"
+      ],
+      "page_slug_he": "להתנתק_מפלאפון"
+    },
+    {
+      "id": 10,
+      "slug": "mirs",
+      "name_he": "מירס",
+      "name_ar": "ميرس",
+      "name_ru": "Мирс",
+      "services_he": [
+        "טלפון נייד",
+        "אינטרנט"
+      ],
+      "page_slug_he": "להתנתק_ממירס"
+    },
+    {
+      "id": 11,
+      "slug": "hot",
+      "name_he": "הוט",
+      "name_ar": "هوت",
+      "name_ru": "Хот",
+      "services_he": [
+        "טלפון נייח",
+        "אינטרנט",
+        "טלויזיה"
+      ],
+      "page_slug_he": "להתנתק_מהוט"
+    },
+    {
+      "id": 12,
+      "slug": "rimon",
+      "name_he": "אינטרנט רימון",
+      "name_ar": "انترنت ريمون",
+      "name_ru": "Интернет Римон",
+      "services_he": [
+        "אינטרנט"
+      ],
+      "page_slug_he": "להתנתק_מאינטרנט_רימון"
+    },
+    {
+      "id": 13,
+      "slug": "aridor",
+      "name_he": "ארידור תקשורת",
+      "name_ar": "إيريدور للإتصالات",
+      "name_ru": "Аридор коммуникации ",
+      "services_he": [
+        "אינטרנט"
+      ],
+      "page_slug_he": "להתנתק_מארידור"
+    },
+    {
+      "id": 14,
+      "slug": "fast",
+      "name_he": "Fast",
+      "name_ar": "Fast",
+      "name_ru": "Fast",
+      "services_he": [
+        "אינטרנט"
+      ],
+      "page_slug_he": "להתנתק_מFast"
+    },
+    {
+      "id": 16,
+      "slug": "ramilevy",
+      "name_he": "רמי לוי",
+      "name_ar": "رامي ليفي",
+      "name_ru": "Рами Леви",
+      "services_he": [
+        "טלפון נייד"
+      ],
+      "page_slug_he": "להתנתק_מרמי_לוי"
+    },
+    {
+      "id": 17,
+      "slug": "telzar019",
+      "name_he": "019 טלזר",
+      "name_ar": "019 طلزار",
+      "name_ru": "телезар ноль",
+      "services_he": [
+        "אינטרנט",
+        "שיחות לחו\"ל"
+      ],
+      "page_slug_he": "להתנתק_מ019_טלזר"
+    },
+    {
+      "id": 18,
+      "slug": "mars019",
+      "name_he": "019 מארס",
+      "name_ar": "019 ميرس",
+      "name_ru": "019 марс ноль",
+      "services_he": [
+        "אינטרנט"
+      ],
+      "page_slug_he": "להתנתק_מ019_מארס"
+    },
+    {
+      "id": 19,
+      "slug": "tripleC",
+      "name_he": "טריפל C",
+      "name_ar": "طريبل سي",
+      "name_ru": "трипл-си",
+      "services_he": [
+        "אינטרנט"
+      ],
+      "page_slug_he": "להתנתק_מטריפל_C"
+    },
+    {
+      "id": 20,
+      "slug": "hallo015",
+      "name_he": "015 הלו",
+      "name_ar": "015 هالو",
+      "name_ru": "015 алло ноль",
+      "services_he": [
+        "אינטרנט",
+        "טלפון נייד",
+        "שיחות לחו\"ל"
+      ],
+      "page_slug_he": "להתנתק_מ015_הלו"
+    },
+    {
+      "id": 21,
+      "slug": "hotNet",
+      "name_he": "HOT Net",
+      "name_ar": "HOT Net",
+      "name_ru": "HOT Net",
+      "services_he": [
+        "אינטרנט"
+      ],
+      "page_slug_he": "להתנתק_מהוט_נט"
+    },
+    {
+      "id": 28,
+      "slug": "golan",
+      "name_he": "גולן טלקום",
+      "name_ar": "Golan Telecom",
+      "name_ru": "Golan Telecom",
+      "services_he": [
+        "טלפון נייד"
+      ],
+      "page_slug_he": "להתנתק_מגולן_טלקום"
+    },
+    {
+      "id": 29,
+      "slug": "youphone",
+      "name_he": "יו פון",
+      "name_ar": "You Phone",
+      "name_ru": "You Phone",
+      "services_he": [
+        "טלפון נייד"
+      ],
+      "page_slug_he": "להתנתק_מיו_פון"
+    },
+    {
+      "id": 30,
+      "slug": "hotmobile",
+      "name_he": "הוט מובייל",
+      "name_ar": "Hot Mobile",
+      "name_ru": "Hot Mobile",
+      "services_he": [
+        "טלפון נייד"
+      ],
+      "page_slug_he": "להתנתק_מהוט_מובייל"
+    },
+    {
+      "id": 37,
+      "slug": "mobile012",
+      "name_he": "012 מובייל",
+      "name_ar": "012 Mobile",
+      "name_ru": "012 Mobile",
+      "services_he": [
+        "טלפון נייד"
+      ],
+      "page_slug_he": "012_מובייל"
+    },
+    {
+      "id": 59,
+      "slug": "amitnet",
+      "name_he": "עמית נט",
+      "name_ar": "سمايل AmitNet",
+      "name_ru": "Смайл AmitNet",
+      "services_he": [
+        "אינטרנט"
+      ],
+      "page_slug_he": "להתנתק_מעמית_נט"
+    },
+    {
+      "id": 73,
+      "slug": "quicklink",
+      "name_he": "קוויקלינק",
+      "name_ar": "quicklink",
+      "name_ru": "quicklink",
+      "services_he": [
+        "אינטרנט"
+      ],
+      "page_slug_he": "להתנתק_מקוויקלינק"
+    },
+    {
+      "id": 75,
+      "slug": "cellact",
+      "name_he": "סלקט",
+      "name_ar": "Cellact",
+      "name_ru": "Cellact",
+      "services_he": [
+        "טלפון נייד"
+      ],
+      "page_slug_he": "סלקט"
+    },
+    {
+      "id": 78,
+      "slug": "partner",
+      "name_he": "פרטנר",
+      "name_ar": "اورنج",
+      "name_ru": "Оранж",
+      "services_he": [
+        "טלפון נייד",
+        "טלפון נייח",
+        "אינטרנט",
+        "טלויזיה"
+      ],
+      "page_slug_he": "להתנתק_מפרטנר"
+    },
+    {
+      "id": 94,
+      "slug": "StingTV",
+      "name_he": "סטינג טיוי",
+      "name_ar": "StingTV",
+      "name_ru": "StingTV",
+      "services_he": [
+        "טלויזיה",
+        "אינטרנט"
+      ],
+      "page_slug_he": ""
+    },
+    {
+      "id": 112,
+      "slug": "we4g",
+      "name_he": "We4G",
+      "name_ar": "We4G",
+      "name_ru": "We4G",
+      "services_he": [
+        "טלפון נייד"
+      ],
+      "page_slug_he": ""
+    },
+    {
+      "id": 113,
+      "slug": "ITC",
+      "name_he": "ITC",
+      "name_ar": "ITC",
+      "name_ru": "ITC",
+      "services_he": [
+        "אינטרנט"
+      ],
+      "page_slug_he": ""
+    },
+    {
+      "id": 114,
+      "slug": "Unlimited",
+      "name_he": "Unlimited",
+      "name_ar": "Unlimited",
+      "name_ru": "Unlimited",
+      "services_he": [
+        "אינטרנט"
+      ],
+      "page_slug_he": ""
+    },
+    {
+      "id": 116,
+      "slug": "099",
+      "name_he": "099 פרימו",
+      "name_ar": "099 Primo",
+      "name_ru": "099 Primo",
+      "services_he": [
+        "אינטרנט"
+      ],
+      "page_slug_he": ""
+    },
+    {
+      "id": 117,
+      "slug": "ice",
+      "name_he": "Ice תקשורת חכמה",
+      "name_ar": "Ice smartcom",
+      "name_ru": "Ice smartcom",
+      "services_he": [
+        "אינטרנט"
+      ],
+      "page_slug_he": ""
+    },
+    {
+      "id": 118,
+      "slug": "inet",
+      "name_he": "אינט",
+      "name_ar": "Inet",
+      "name_ru": "Inet",
+      "services_he": [
+        "אינטרנט"
+      ],
+      "page_slug_he": ""
+    },
+    {
+      "id": 119,
+      "slug": "Tami4",
+      "name_he": "תמי 4",
+      "name_ar": "tami4",
+      "name_ru": "tami4",
+      "services_he": [
+        "בר מים"
+      ],
+      "page_slug_he": ""
+    },
+    {
+      "id": 120,
+      "slug": "Neviot",
+      "name_he": "נביעות",
+      "name_ar": "neviot",
+      "name_ru": "neviot",
+      "services_he": [
+        "בר מים"
+      ],
+      "page_slug_he": ""
+    },
+    {
+      "id": 121,
+      "slug": "Pauza",
+      "name_he": "פאוזה Water",
+      "name_ar": "Pauza Water",
+      "name_ru": "Pauza Water",
+      "services_he": [
+        "בר מים"
+      ],
+      "page_slug_he": ""
+    },
+    {
+      "id": 122,
+      "slug": "noam1",
+      "name_he": "נעם 1",
+      "name_ar": "noam1",
+      "name_ru": "noam1",
+      "services_he": [
+        "בר מים"
+      ],
+      "page_slug_he": ""
+    },
+    {
+      "id": 123,
+      "slug": "afikim",
+      "name_he": "אפיקים",
+      "name_ar": "afikim",
+      "name_ru": "afikim",
+      "services_he": [
+        "בר מים"
+      ],
+      "page_slug_he": ""
+    },
+    {
+      "id": 124,
+      "slug": "yuli",
+      "name_he": "מי יולי",
+      "name_ar": "mei yuli",
+      "name_ru": "mei yuli",
+      "services_he": [
+        "בר מים"
+      ],
+      "page_slug_he": ""
+    },
+    {
+      "id": 125,
+      "slug": "aqbar",
+      "name_he": "A.Q בר",
+      "name_ar": "A.Q Bar",
+      "name_ru": "A.Q Bar",
+      "services_he": [
+        "בר מים"
+      ],
+      "page_slug_he": ""
+    },
+    {
+      "id": 126,
+      "slug": "ebar",
+      "name_he": "EBar",
+      "name_ar": "EBar",
+      "name_ru": "EBar",
+      "services_he": [
+        "בר מים"
+      ],
+      "page_slug_he": ""
+    },
+    {
+      "id": 127,
+      "slug": "haaretz",
+      "name_he": "הארץ",
+      "name_ar": "haaretz",
+      "name_ru": "haaretz",
+      "services_he": [
+        "מנוי לעיתון"
+      ],
+      "page_slug_he": ""
+    },
+    {
+      "id": 128,
+      "slug": "maariv",
+      "name_he": "מעריב",
+      "name_ar": "maariv",
+      "name_ru": "maariv",
+      "services_he": [
+        "מנוי לעיתון"
+      ],
+      "page_slug_he": ""
+    },
+    {
+      "id": 129,
+      "slug": "yediot",
+      "name_he": "ידיעות אחרונות",
+      "name_ar": "Yediot Ahronot",
+      "name_ru": "Yediot Ahronot",
+      "services_he": [
+        "מנוי לעיתון"
+      ],
+      "page_slug_he": ""
+    },
+    {
+      "id": 130,
+      "slug": "globes",
+      "name_he": "גלובס",
+      "name_ar": "Globes",
+      "name_ru": "Globes",
+      "services_he": [
+        "מנוי לעיתון"
+      ],
+      "page_slug_he": ""
+    },
+    {
+      "id": 131,
+      "slug": "calcalist",
+      "name_he": "כלכליסט",
+      "name_ar": "Calcalist",
+      "name_ru": "Calcalist",
+      "services_he": [
+        "מנוי לעיתון"
+      ],
+      "page_slug_he": ""
+    },
+    {
+      "id": 132,
+      "slug": "jpost",
+      "name_he": "Jerusalem Post",
+      "name_ar": "Jerusalem Post",
+      "name_ru": "Jerusalem Post",
+      "services_he": [
+        "מנוי לעיתון"
+      ],
+      "page_slug_he": ""
+    },
+    {
+      "id": 133,
+      "slug": "cal",
+      "name_he": "כאל",
+      "name_ar": "CAL",
+      "name_ru": "CAL",
+      "services_he": [
+        "כרטיס אשראי"
+      ],
+      "page_slug_he": ""
+    },
+    {
+      "id": 134,
+      "slug": "diners",
+      "name_he": "דיינרס קלאב",
+      "name_ar": "Diners club",
+      "name_ru": "Diners club",
+      "services_he": [
+        "כרטיס אשראי"
+      ],
+      "page_slug_he": ""
+    },
+    {
+      "id": 135,
+      "slug": "isracard",
+      "name_he": "ישראכרט",
+      "name_ar": "Isracard",
+      "name_ru": "Isracard",
+      "services_he": [
+        "כרטיס אשראי"
+      ],
+      "page_slug_he": ""
+    },
+    {
+      "id": 136,
+      "slug": "amex",
+      "name_he": "אמריקן אקספרס",
+      "name_ar": "American express",
+      "name_ru": "American express",
+      "services_he": [
+        "כרטיס אשראי"
+      ],
+      "page_slug_he": ""
+    },
+    {
+      "id": 137,
+      "slug": "max",
+      "name_he": "מקס",
+      "name_ar": "Max",
+      "name_ru": "Max",
+      "services_he": [
+        "כרטיס אשראי"
+      ],
+      "page_slug_he": ""
+    },
+    {
+      "id": 139,
+      "slug": "leumi",
+      "name_he": "לאומי",
+      "name_ar": "Leumi",
+      "name_ru": "Leumi",
+      "services_he": [
+        "כרטיס אשראי"
+      ],
+      "page_slug_he": ""
+    },
+    {
+      "id": 153,
+      "slug": "wecom",
+      "name_he": "WeCom",
+      "name_ar": "WeCom",
+      "name_ru": "WeCom",
+      "services_he": [
+        "טלפון נייד"
+      ],
+      "page_slug_he": ""
+    }
+  ]
+}

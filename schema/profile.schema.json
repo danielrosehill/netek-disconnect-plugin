@@ -1,0 +1,85 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/danielrosehill/netek-disconnect-plugin/schema/profile.schema.json",
+  "title": "Netek profile",
+  "description": "One person's details, used to fill a Netek cancellation request. Stored at ~/.claude-plugins/netek/profiles/<name>.json — never in this repo.",
+  "type": "object",
+  "required": ["accountType", "city", "street", "houseNumber", "phone", "email"],
+  "properties": {
+    "_comment": { "type": "string" },
+    "accountType": {
+      "type": "string",
+      "enum": ["private", "business"],
+      "description": "Selects which identity fields are required."
+    },
+    "firstName": {
+      "type": "string",
+      "minLength": 2,
+      "pattern": "^[a-zA-Zא-ת\\-\\s]+$",
+      "description": "Private accounts. Letters, hyphen and space only."
+    },
+    "lastName": {
+      "type": "string",
+      "minLength": 2,
+      "pattern": "^[a-zA-Zא-ת\\-\\s]+$"
+    },
+    "personalID": {
+      "type": "string",
+      "pattern": "^[0-9]{5,9}$",
+      "description": "Israeli ת.ז. Must also pass the check-digit test; validate with scripts/netek.py check-id."
+    },
+    "companyName": {
+      "type": "string",
+      "minLength": 5,
+      "description": "Business accounts."
+    },
+    "companyID": {
+      "type": "string",
+      "pattern": "^[0-9]{3,}$",
+      "description": "ח.פ. or ע.מ."
+    },
+    "contactName": {
+      "type": "string",
+      "minLength": 2,
+      "pattern": "^[a-zA-Zא-ת\\-\\s]+$",
+      "description": "Business accounts. Becomes fullName on the wire."
+    },
+    "city": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Hebrew city name. Resolve with scripts/netek.py city."
+    },
+    "street": { "type": "string", "minLength": 1 },
+    "houseNumber": { "type": "string", "minLength": 1 },
+    "zip": {
+      "type": "string",
+      "description": "Optional. Postcode from the street lookup. Leave empty rather than guessing."
+    },
+    "phone": {
+      "type": "string",
+      "pattern": "^[0-9]{2,3}-[0-9]{7}$",
+      "description": "Contact number. The hyphen is required by Netek's validator."
+    },
+    "email": {
+      "type": "string",
+      "format": "email",
+      "description": "The activation link is sent here. A typo makes the request unactivatable."
+    },
+    "cc": {
+      "type": "string",
+      "pattern": "^[0-9]{4}$",
+      "description": "Last FOUR digits of the payment method. Never a full card number."
+    }
+  },
+  "allOf": [
+    {
+      "if": { "properties": { "accountType": { "const": "private" } } },
+      "then": { "required": ["firstName", "lastName", "personalID"] }
+    },
+    {
+      "if": { "properties": { "accountType": { "const": "business" } } },
+      "then": { "required": ["companyName", "companyID", "contactName"] }
+    }
+  ],
+  "additionalProperties": false
+}

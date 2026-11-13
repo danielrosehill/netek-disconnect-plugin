@@ -1,0 +1,19 @@
+{
+  "_comment": "Private account. Copy to ~/.claude-plugins/netek/profiles/default.json and replace every value — these are fake. See references/user-data-layout.md for keeping personalID and cc in a vault instead.",
+
+  "accountType": "private",
+
+  "firstName": "ישראל",
+  "lastName": "ישראלי",
+  "personalID": "030764534",
+
+  "city": "ירושלים",
+  "street": "יפו",
+  "houseNumber": "12",
+  "zip": "612",
+
+  "phone": "050-1234567",
+  "email": "you@example.com",
+
+  "cc": "1234"
+}

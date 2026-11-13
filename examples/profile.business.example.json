@@ -1,0 +1,19 @@
+{
+  "_comment": "Business account. firstName/lastName/personalID are replaced by companyName/companyID/contactName; contactName becomes fullName on the wire and companyID becomes personalId. All values fake.",
+
+  "accountType": "business",
+
+  "companyName": "חברה לדוגמה בעמ",
+  "companyID": "515123456",
+  "contactName": "ישראל ישראלי",
+
+  "city": "ירושלים",
+  "street": "יפו",
+  "houseNumber": "12",
+  "zip": "612",
+
+  "phone": "02-1234567",
+  "email": "billing@example.com",
+
+  "cc": "1234"
+}

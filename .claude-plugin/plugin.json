@@ -1,0 +1,23 @@
+{
+  "name": "netek-disconnect",
+  "version": "0.2.1",
+  "description": "Cancel Israeli service subscriptions (ניתוק) via netek.co.il — mobile, internet, landline, TV, water bars, newspapers and credit cards. Resolves the provider and service, validates Israeli ID and address, shows you the exact request, and submits only on explicit confirmation. Falls back to filling the form in Chrome when the API changes. Uses Netek's own private, undocumented backend — not a published API; see docs/api-map.md.",
+  "author": {
+    "name": "Daniel Rosehill",
+    "email": "public@danielrosehill.com",
+    "url": "https://danielrosehill.com"
+  },
+  "repository": "https://github.com/danielrosehill/netek-disconnect-plugin",
+  "license": "MIT",
+  "keywords": [
+    "israel",
+    "netek",
+    "cancellation",
+    "disconnect",
+    "consumer-rights",
+    "utilities",
+    "telecom",
+    "hebrew",
+    "unofficial-api"
+  ]
+}
